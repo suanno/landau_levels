@@ -1,7 +1,7 @@
 # Landau levels
 Some functions that plot, on the same canvas, both the density of states and the fermi level for
 - 2D system of (spinless) electrons in a _square_ with an othogonal uniform magnetic field
-- 3D system of (spinless) electrons in a _box_($L_x=L_y=L_z$) with a uniform magnetic field in the $z$ direction
+- 3D system of (spinless) electrons in a _box_ ($L_x=L_y=L_z$) with a uniform magnetic field in the $z$ direction
 
 Even though the landau levels' energies depend on the magnetic field $B$ and the area of the sheet (or the cross section in 3D) separately, we choose to normalize
 the energy $\epsilon$ in such a way that it becomes dimensionless and the landau levels depend only on the flux of the $B$ field:
