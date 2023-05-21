@@ -19,6 +19,9 @@ the number of states with energy in that interval, $g(\epsilon)$ must be a sum o
 is the degeneracy of the level $\epsilon_n$.\\\
 In order to represent those $\delta$, the function "*plot_density2D*" plots vertical lines with an height that coincides with the degeneracy of the level.\\\
 *Note*:The height of the vertical lines is the maximum value of the $y$ coordinate reported on the $y$ axis!
+
+![alt text](images/2d.png)
+
 #### 3D function
 In 3D the function $g(\epsilon)$ is a continuos function _only if_ the lenght of the box in the $z$ direction is infinite, otherwise the energy levels are still discrete. Here we deal with electrons in a box, so the system cannot be considered infinite in the $z$ direction and so if we define $g(\epsilon)=dN/d\epsilon$ the denominator $d\epsilon$ shall be _non-infinitesimal_, otherwise in that infinitesimal energy interval there would be no states!\\\
 The function *plot_density3D* calculates the function $g(\epsilon)=dN/d\epsilon$ in this way:
