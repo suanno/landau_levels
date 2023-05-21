@@ -11,5 +11,5 @@ So the normalized landau levels are dimensionless and depend just on the flux $\
 ### "plot_density2D(Z,n_max)" or "plot_density3D(Z,n_max)"
 Plots the densiy of states $g(\epsilon)$ as a function of the normalized _dimensionless energy_ $\tilde{\epsilon}$, for a system
 with $Z$ quantums of magnetic flux, until the energy of the $n_{max}$-th energy level.
-- 2D\\\
+- 2D_\\
 AAA
