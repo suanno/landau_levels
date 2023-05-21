@@ -30,6 +30,8 @@ The function *plot_density3D* calculates the function $g(\epsilon)=dN/d\epsilon$
 - $d\epsilon = \epsilon_{n+1}-\epsilon_{n}$
 we choose this way of calculating $g(\epsilon)$ because it considers the minimum possible values of $d\epsilon$ for which the corresponding $dN$ values are not zero.
 
+![alt text](images/3d.png)
+
 ### "plot_fermi_over_density2D(Z,N,n_max)" or "plot_fermi_over_density3D(Z,N,n_max)"
 Plots the density of states $g(\epsilon)$ and _on the same canvas_ the fermi level for a system with $Z$ quantums of magnetic flux and $N$ electrons.\\\
 The fermi level is calculated by filling the avaible states from the lowest in energy, until all electrons have been placed in the states.
